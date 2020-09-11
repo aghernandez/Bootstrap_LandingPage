@@ -183,3 +183,25 @@ span.salud {
         visibility: hidden;
     }
 }
+
+@media (max-width: 760px) {
+    .contaniner,
+    .container-sm {
+        max-width: 100%;
+    }
+
+    section h1 {
+        font-size: 5rem;
+    }
+
+    section h1::before {
+        font-size: 1rem;
+        letter-spacing: 5px;
+    }
+
+    section img {
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%) scale(0.3);
+    }
+}
